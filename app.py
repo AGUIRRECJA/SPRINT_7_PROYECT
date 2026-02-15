@@ -6,8 +6,7 @@ st.title("🚗 Demo Vehiculos con Streamlit")
 
 st.header("Histograma del Odometro", divider=True)
 
-car_data = pd.read_csv(
-    r'C:\Users\jeyso\NUEVA CARPETA\SPRINT_7\SPRINT_7_PROYECT\vehicles_us.csv')
+car_data = pd.read_csv("vehicles_us.csv")
 
 hist_button = st.checkbox('Construir histograma')
 
